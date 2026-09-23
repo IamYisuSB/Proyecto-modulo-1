@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-acento: #f5cb81;
+    --fuente-principal: "DM Sans", sans-serif;
+    --fuente-secundaria: "Archivo Black", sans-serif;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    z-index: 1000;
+    background-color: rgb(242, 239, 236);
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.logo{
+    width: 90px;
+}
+nav a{
+    color: black;
+    font-size: medium;
+    text-decoration: none;
+    margin: 3rem;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.675), rgba(0, 0, 0, 0.5)), url('/assets/img/bannerimg.jpg');
+    background-color: azure;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+}
+.hero{
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.hero h1{
+    font-family: var(--fuente-principal);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.hero p{
+    font-family: var(--fuente-secundaria);
+    font-size: 1.5rem;
+}
+.type-route h2{
+    text-align: center;
+    margin: 4rem;
+}
+.actividades{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.card img{
+    width: 100%;
+    border-radius: 30px;
+    aspect-ratio: 3/4;
+    margin-bottom: 1rem;
+}
