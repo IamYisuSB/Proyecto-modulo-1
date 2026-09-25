@@ -4,22 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/rutademo.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/footer.css">
     <link rel="stylesheet" href="/assets/css/btn.css">
     <link rel="stylesheet" href="/assets/css/cards.css">
+    <link rel="stylesheet" href="/assets/css/socios.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <title>Document</title>
+    <title>Club Viñamala - Socios</title>
 </head>
 
 <body>
-     <header>
+    <header>
         <a href="/index.html"><img class="logo" src="/assets/img/logo_club.webp" alt="Logo del club Viñamala"></a>
         <nav>
             <a href="index.html">Inicio</a>
@@ -29,73 +30,39 @@
         <a class="btn1" href="socios.html">Ser socio</a>
     </header>
     <main>
-        <section class="banner">
-            <div class="hero">
-                <h1>Senda de los Cazadores</h1>
-                <p>Duracion: 5:30H</p>
-                <p>Tipo: Senderismo</p>
-            </div>
-        </section>
-        <section class="rute-sec">
-            <h2>¿En que consiste la ruta?</h2>
-            <div class="rute-info1">
-                <p> Una ruta de montaña de aproximadamente 5 horas y 30 minutos que nos lleva a descubrir un entorno
-                    natural de gran belleza, combinando senderos entre bosques, zonas de montaña y espectaculares
-                    paisajes.
-
-                    La Senda de los Cazadores ofrece un recorrido variado, con tramos de ascenso y descenso que permiten
-                    disfrutar de la naturaleza y de diferentes perspectivas del entorno. A lo largo de la ruta
-                    encontraremos zonas tranquilas para descansar, observar el paisaje y disfrutar de la experiencia de
-                    caminar en plena naturaleza.
-
-                    Una propuesta ideal para quienes buscan una jornada completa de senderismo, desconectar de la rutina
-                    y disfrutar del entorno en compañía.
-                </p>
-            </div>
-        </section>
-        <section class="card-inmap">
-            <div class="info">
-                <h2>Dia: 23 de octubre <br> inicio: 9:30</h2>
+        <section class="card-1">
+            <div class="card-title">
                 <div>
-                    <table class="info-ruta">
-                        <tr>
-                            <th>Duración:</th>
-                            <td>~5 h 30 min</td>
-                        </tr>
-                        <tr>
-                            <th>Tipo:</th>
-                            <td>Senderismo</td>
-                        </tr>
-                        <tr>
-                            <th>Dificultad:</th>
-                            <td>Moderada</td>
-                        </tr>
-                        <tr>
-                            <th>Distancia:</th>
-                            <td>aproximadamente 12-15 km</td>
-                        </tr>
-                        <tr>
-                            <th>Grupos:</th>
-                            <td>Máximo 10 personas</td>
-                        </tr>
-                        <tr>
-                            <th>Precio por persona:</th>
-                            <td>30€ no socios <br> 15€ socios</td>
-                        </tr>
-                    </table>
+                    <img src="/assets/img/hiking.jpg" alt="Imagen de una mujer haciendo senderismo">
+                </div>
+                <div>
+                    <h1>Asociate con nosotros</h1>
+                    <p>Si te haces socio obtendras ventajas exclusivas y apoyaras al proyecto</p>
                 </div>
             </div>
-            <div class="mapa">
-                <h2>Ubicacion de partida</h2>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d183.6348632690025!2d-0.5462354050533341!3d42.57317275959093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1790272390685!5m2!1ses!2ses"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="strict-origin-when-cross-origin"></iframe>
-            </div>
+            <section class="info-socio">
+                <div class="inscribete">
+                    <h2>Como inscribirte</h2>
+                    <ol>
+                        <li>Envianos por el formulario la informacion solicitada</li>
+                        <li>Te enviaremos un numero de cuenta donde deberas de hacer el ingreso</li>
+                        <li>Y ya formarias parte del club</li>
+                    </ol>
+                </div>
+                <div class="beneficios">
+                    <h2>¿Que beneficios tiene el club?</h2>
+                    <ul>
+                        <li>Descuentos en todas las rutas</li>
+                        <li>Reuniones exclusivas</li>
+                        <li>Regalos en fechas puntuales</li>
+                        <li>Prestamo de equipamiento</li>
+                    </ul>
+                </div>
+            </section>
         </section>
         <section class="card-form">
             <div class="form">
-                <h2>Apúntate a la ruta</h2>
+                <h2>Apuntarse al club</h2>
                 <form action="/solicitar" method="get">
                     <div class="campo">
                         <label for="nombre">Nombre y apellidos:*</label>
@@ -108,10 +75,6 @@
                     <div class="campo">
                         <label for="telefono">Teléfono:*</label>
                         <input type="tel" id="telefono" name="telefono" required>
-                    </div>
-                    <div class="campo">
-                        <label for="personas">Numero de personas:*</label>
-                        <input type="number" id="personas" name="personas" min="1" max="10" required>
                     </div>
                     <div class="campo">
                         <label for="mensaje">Mensaje:</label>

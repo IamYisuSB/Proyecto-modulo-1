@@ -27,3 +27,20 @@
 .btn2:hover{
     background-color: #f5cb81;
 }
+.btnform{
+    font-family: "DM Sans", sans-serif;;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: black;
+    background-color: #f6b13a;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+}
+.btnform:hover{
+    background-color: #f5cb81;
+}

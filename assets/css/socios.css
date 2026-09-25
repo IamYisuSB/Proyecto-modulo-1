@@ -1,0 +1,23 @@
+ol, ul{
+    margin-left: 1.5rem;
+}
+.card-title{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    margin: 3rem 4rem 3rem;
+
+}
+.card-title img{
+    width: 80%;
+    border-radius: 30px;
+}
+.info-socio{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    margin-bottom: 3rem;
+}
