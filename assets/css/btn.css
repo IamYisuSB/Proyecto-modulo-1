@@ -12,3 +12,18 @@
 .btn1:hover{
     background-color: #f5cb81;
 }
+
+.btn2{
+    padding: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 1rem;
+    color: black;
+    background-color: #f6b13a;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: medium;
+}
+.btn2:hover{
+    background-color: #f5cb81;
+}

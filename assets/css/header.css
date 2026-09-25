@@ -1,0 +1,27 @@
+:root {
+    --color-acento: #f5cb81;
+    --fuente-principal: "DM Sans", sans-serif;
+    --fuente-secundaria: "Archivo Black", sans-serif;
+}
+header{
+    font-family: var(--fuente-principal);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+    background-color: rgb(242, 239, 236);
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.logo{
+    width: 8%;
+}
+nav a{
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 3rem;
+}
+
+nav a:hover{
+    color: blue;
+}

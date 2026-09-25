@@ -1,0 +1,40 @@
+:root {
+    --color-acento: #f5cb81;
+    --fuente-principal: "DM Sans", sans-serif;
+    --fuente-secundaria: "Archivo Black", sans-serif;
+}
+footer{
+    font-family: var(--fuente-principal);
+    background-color: rgb(242, 239, 236);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 200px;
+}
+footer img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    justify-self: center;
+
+}
+footer div{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: blue;
+}
+.icon {
+    flex-direction: row;
+    padding: 0;
+    padding-top: 1rem;
+    gap: 1rem;
+    font-size: 1.4rem;
+}

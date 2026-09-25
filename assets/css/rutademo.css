@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-acento: #f5cb81;
+    --fuente-principal: "DM Sans", sans-serif;
+    --fuente-secundaria: "Archivo Black", sans-serif;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.675), rgba(0, 0, 0, 0.5)), url('/assets/img/senda-cazadores.jpg');
+    background-color: azure;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+}
+.hero{
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.hero h1{
+    font-family: var(--fuente-principal);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.hero p{
+    font-family: var(--fuente-secundaria);
+    font-size: 1.5rem;
+}
+.rute-sec h2{
+    font-family: var(--fuente-secundaria);
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.rute-info1{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rute-info1 p{
+    margin-bottom: 3rem;
+    font-family: var(--fuente-principal);
+}
+.info-ruta {
+    font-family: var(--fuente-principal);
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+}
+
+.info-ruta th,
+.info-ruta td {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+
+.card-inmap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+    border-radius: 30px;
+    gap: 3rem;
+    background-color: rgb(239, 238, 238);
+    margin-bottom: 3rem;
+}
+.info h2{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    font-family: var(--fuente-secundaria);
+}
+.mapa h2{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    font-family: var(--fuente-secundaria);
+}
+.card-form{
+    background-image: url(/assets/img/la-molina.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: white;
+    padding: 2rem;
+    margin: 4rem;
+    width: 50%;
+    border-radius: 30px;
+}
+.form h2{
+    font-family: var(--fuente-secundaria);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+label{
+    font-family: var(--fuente-principal);
+}

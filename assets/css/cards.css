@@ -1,0 +1,38 @@
+.card img{
+    width: 100%;
+    border-radius: 30px;
+    aspect-ratio: 3/4;
+    margin-bottom: 1rem;
+}
+.card-activity{
+    width: 70%;
+    margin-top: 2rem;
+    border: solid 2px;
+    border-radius: 20px;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.activity-section{
+    background-color: rgb(255, 247, 238);
+    margin-top: 6rem;
+    padding-bottom: 6rem;
+}
+.activity-section h2{
+    text-align: center;
+    padding: 3rem;
+}
+.next-activity{
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.next-activity img {
+    width: 15%;
+    border-radius: 30px;
+}
+.next-activity:last-child {
+    border-bottom: none
+}

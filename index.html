@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
     <link rel="stylesheet" href="/assets/css/btn.css">
+    <link rel="stylesheet" href="/assets/css/cards.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Club Viñamala</title>
 </head>
 
@@ -18,7 +22,7 @@
     <header>
         <img class="logo" src="/assets/img/logo_club.webp" alt="Logo del club Viñamala">
         <nav>
-            <a href="">Inico</a>
+            <a href="/index.html">Inicio</a>
             <a href="">Rutas / actividades</a>
             <a href="">patrocinios</a>
         </nav>
@@ -35,18 +39,83 @@
             <div>
                 <h2>Tipo de actividades</h2>
                 <div class="actividades">
-                        <a class="card" href="#"><img src="/assets/img/hiking.jpg" alt="Foto de senderismo">
-                        <h3>Senderismo</h3></a>
-                        <a class="card" href="#"><img src="/assets/img/skiing.jpg" alt="Esquiar">
+                    <a class="card" href="#"><img src="/assets/img/hiking.jpg" alt="Foto de senderismo">
+                        <h3>Senderismo</h3>
+                    </a>
+                    <a class="card" href="#"><img src="/assets/img/skiing.jpg" alt="Esquiar">
                         <h3>Esqui</h3>
-                        </a>
-                        <a class="card" href="#"> <img src="/assets/img/climbing.jpg" alt="Escalada"> <h3>Escalada</h3></a>
+                    </a>
+                    <a class="card" href="#"> <img src="/assets/img/climbing.jpg" alt="Escalada">
+                        <h3>Escalada</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="activity-section">
+            <h2>Actividades próximas</h2>
+            <div class="card-activity">
+                <div class="next-activity">
+                    <img src="/assets/img/actividad-pico1.jpg" alt="Imagen del pico Néouvielle massif">
+                    <h3>Escalada al pico Néouvielle massif</h3>
+                    <p>Duracion: 7H</p>
+                    <p>Tipo: Escalada</p>
+                    <a href="/rutademo.html" class="btn2">Apuntarse</a>
+                </div>
+                <div class="next-activity">
+                    <img src="/assets/img/senda-cazadores.jpg" alt="Imagen de ruta por la senda de los cazadores">
+                    <h3>Senda de los Cazadores</h3>
+                    <p>Duracion: 5.3H</p>
+                    <p>Tipo: Senderismo</p>
+                    <a href="/rutademo.html" class="btn2">Apuntarse</a>
+                </div>
+                <div class="next-activity">
+                    <img src="/assets/img/llano-larri.jpg" alt="Imagen del llano de larri">
+                    <h3>Llanos de La Larri</h3>
+                    <p>Duracion: 4H</p>
+                    <p>Tipo: Senderismo</p>
+                    <a href="/rutademo.html" class="btn2">Apuntarse</a>
+                </div>
+                <div class="next-activity">
+                    <img src="/assets/img/la-molina.jpg" alt="Imagen del pico Néouvielle massif">
+                    <h3>La Molina: Estación de esquí</h3>
+                    <p>Duracion: 10H</p>
+                    <p>Tipo: Esquiar</p>
+                    <a href="/rutademo.html" class="btn2">Apuntarse</a>
+                </div>
+                <div class="next-activity">
+                    <img src="/assets/img/sierra-cadi.jpg" alt="Imagen del pico Néouvielle massif">
+                    <h3>Escalada Sierra del Cadí</h3>
+                    <p>Duracion: 24H</p>
+                    <p>Tipo: Escalada</p>
+                    <a href="/rutademo.html" class="btn2">Apuntarse</a>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-
+        <div class="fo-columm-1">
+            <img src="/assets/img/logo_club.webp" alt="Logo del club">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <div class="icon">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" aria-label="Whtasapp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#" aria-label="X (twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+        <div class="fo-columm-2">
+            <h3>Enlaces</h3>
+            <a href="index.html">Inicio</a>
+            <a href="#">Rutas</a>
+            <a href="#">Patrocinios</a>
+            <a href="#">Ser socio</a>
+        </div>
+        <div class="legal">
+            <h3>Legal</h3>
+            <a href="">Aviso Legal</a>
+            <a href="">Politica de privacidad</a>
+            <a href="">Politica de cookies</a>
+        </div>
     </footer>
 </body>
 
