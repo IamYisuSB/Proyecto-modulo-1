@@ -5,7 +5,6 @@ ol, ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    width: 100%;
     gap: 1rem;
     margin: 3rem 4rem 3rem;
 
@@ -20,4 +19,38 @@ ol, ul{
     grid-template-columns: 1fr 1fr;
     align-items: start;
     margin-bottom: 3rem;
+}
+
+
+/* ---------- Responsive ---------- */
+/* Tablet */
+@media (max-width: 900px){
+    .card-title{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        margin: 2rem 1.5rem;
+    }
+    .card-title img{
+        width: 100%;
+        max-width: 500px;
+    }
+    .info-socio{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 0 1.5rem;
+    }
+}
+/* Móvil */
+@media (max-width: 600px){
+    .card-title{
+        margin: 1.5rem 1rem;
+    }
+    .card-title h1{
+        font-size: 1.8rem;
+    }
+    .info-socio{
+        justify-items: start;
+        padding: 0 1rem;
+    }
 }

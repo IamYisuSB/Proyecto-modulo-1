@@ -1,0 +1,90 @@
+/* Formulario (rutademo, patrocinio y socios) */
+.card-form{
+    background-image: url(/assets/img/llano-larri.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding: 4rem 1.5rem;
+}
+.form{
+    font-family: var(--fuente-principal);
+    width: 100%;
+    max-width: 550px;
+    padding: 2.5rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.form h2{
+    font-family: var(--fuente-secundaria);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.campo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.form label{
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+.form input,
+.form textarea{
+    width: 100%;
+    padding: 0.9rem 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: rgb(247, 247, 233);
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+.form textarea{
+    resize: vertical;
+    min-height: 120px;
+    max-height: 250px;
+}
+.form input:focus,
+.form textarea:focus{
+    outline: none;
+    border-color: var(--color-acento);
+    background-color: white;
+}
+.form button{
+    align-self: center;
+}
+
+
+/* ---------- Responsive ---------- */
+/* Tablet */
+@media (max-width: 900px){
+    .card-form{
+        padding: 3rem 1.5rem;
+    }
+}
+/* Móvil */
+@media (max-width: 600px){
+    .card-form{
+        padding: 2rem 1rem;
+    }
+    .form{
+        padding: 1.5rem;
+        border-radius: 20px;
+    }
+    .form h2{
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+    .form button{
+        align-self: stretch;
+    }
+}

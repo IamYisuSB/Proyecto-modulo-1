@@ -38,3 +38,28 @@ footer a:hover{
     gap: 1rem;
     font-size: 1.4rem;
 }
+
+/* ---------- Responsive ---------- */
+/* Tablet */
+@media (max-width: 900px){
+    footer{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+/* Móvil */
+@media (max-width: 600px){
+    footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        text-align: center;
+    }
+    footer div{
+        align-items: center;
+        padding: 1.5rem 1rem;
+    }
+    .icon{
+        justify-content: center;
+    }
+}

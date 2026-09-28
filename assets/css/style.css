@@ -55,3 +55,36 @@ a{
     text-decoration: none;
     color: black;
 }
+
+
+/* ---------- Responsive ---------- */
+/* Tablet */
+@media (max-width: 900px){
+    .actividades{
+        gap: 2rem;
+        padding: 0 1.5rem;
+    }
+}
+/* Móvil */
+@media (max-width: 600px){
+    .banner{
+        height: 50vh;
+    }
+    .hero{
+        padding: 0 1rem;
+    }
+    .hero h1{
+        font-size: 1.8rem;
+    }
+    .hero p{
+        font-size: 1.2rem;
+    }
+    .type-route h2{
+        margin: 2.5rem 1rem;
+    }
+    .actividades{
+        grid-template-columns: 1fr;
+        max-width: 360px;
+        padding: 0 1rem;
+    }
+}
